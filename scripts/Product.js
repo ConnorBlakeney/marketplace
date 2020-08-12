@@ -8,7 +8,7 @@ export const Product = (product, type) => {
                 Price $${product.price}
             </div>
             <div>
-                In category ${type.name}
+                In category: ${type.name}
             </div>
         </section>
     `

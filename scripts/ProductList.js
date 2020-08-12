@@ -23,7 +23,8 @@ export const ProductList = () => {
 
         return html
     })
-
+    // console.log(arrayOfProductHTMLRepresentations)
+        
     const stringOfAllRepresentations = arrayOfProductHTMLRepresentations.join("")
 
     contentTarget.innerHTML = stringOfAllRepresentations
